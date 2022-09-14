@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  margin-top: 100px;
+  background: hsl(210, 36%, 96%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,9 +21,19 @@
   }
 }
 
+/*main {
+  width: 90vw;
+  margin: 5rem auto;
+  max-width: 620px;
+}*/
+
 .App-header {
   background-color: #282c34;
+  width: 90vw;
+  margin: 5rem auto;
+  max-width: 800px;
   min-height: 100vh;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +53,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: inherit;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav a {
+  color: inherit;
+  font-size: calc(10px + 1.5vmin);
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
 }
