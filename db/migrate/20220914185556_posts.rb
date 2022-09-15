@@ -5,7 +5,6 @@ class Posts < ActiveRecord::Migration[6.1]
       t.string :image
       t.string :body
       t.integer :likes
-      t.integer :maker_id
     end
   end
 end

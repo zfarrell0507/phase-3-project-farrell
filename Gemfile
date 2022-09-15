@@ -37,7 +37,8 @@ gem "require_all", "~> 3.0"
 # These gems will only be used when we are running the application locally
 group :development do
   gem "pry", "~> 0.14.1"
-
+  # https://github.com/faker-ruby/faker
+  gem "faker", "~> 2.18"
   # Automatically reload when there are changes
   # https://github.com/alexch/rerun
   gem "rerun"

@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './NavBar';
 import Home from './posts/Home';
 import Posts from './posts/Posts';
-import SingIn from './posts/SignIn';
+import SignIn from './posts/SignIn';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
           <Route
             exact
             path="/sign_in"
-            element={<SingIn />}
+            element={<SignIn />}
           />
         </Routes>
       </main>
